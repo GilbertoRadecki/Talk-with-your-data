@@ -1,4 +1,4 @@
 pandas
-pandasai
+pandasai==3.0.0b16
 streamlit
 litellm
