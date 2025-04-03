@@ -11,7 +11,6 @@ load_dotenv()
 model = "ollama/llama3.1"
 
 # Definindo a chave da API do Pandas AI
-pai_api_key = os.environ.get("PANDASAI_API_KEY")
 pai.api_key.set(pai_api_key)
 
 st.set_page_config(
