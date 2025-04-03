@@ -1,0 +1,19 @@
+# 📊 DataChat AI – Analisando seus dados de forma inteligente!
+
+O **DataChat AI** é um aplicativo interativo que permite aos usuários carregar arquivos CSV e explorar seus dados de forma intuitiva, utilizando a potência da inteligência artificial. Criado com **PandasAI**, **Streamlit** e outras bibliotecas, este app combina dois modelos de linguagem (LLMs) para oferecer respostas precisas e contextualizadas sobre os dados carregados.
+
+## 🚀 Funcionalidades
+- **Upload de arquivos CSV** para análise instantânea.
+- **Interação com IA**: Faça perguntas sobre os dados sem precisar escrever código.
+- **Dois LLMs especializados**:  
+  - Um modelo focado em **cálculos matemáticos** para análises numéricas.
+  - Outro especializado em **resumos de texto** para melhor compreensão de informações descritivas.
+
+## 🌍 Democratizando a análise de dados
+O **DataChat AI** elimina barreiras técnicas, permitindo que qualquer pessoa – independentemente do nível de conhecimento em programação ou ciência de dados – explore e compreenda seus dados de maneira acessível.
+
+🔹 **Simples**: Interface intuitiva via Streamlit.  
+🔹 **Poderoso**: Modelos de IA otimizados para diferentes tipos de perguntas.  
+🔹 **Acessível**: Qualquer pessoa pode carregar um arquivo e começar a explorar os dados!
+
+Baixe, experimente e descubra o poder da análise de dados com IA! 🚀
