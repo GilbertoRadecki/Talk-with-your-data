@@ -11,7 +11,8 @@ load_dotenv()
 model = "ollama/llama3.1"
 
 # Definindo a chave da API do Pandas AI
-pai.api_key.set(PAI_API_KEY)
+api_key = st.secrets["PAI_API_KEY"]
+pai.api_key.set(api_key)
 
 st.set_page_config(
     page_title="Sabrina",
