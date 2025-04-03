@@ -20,7 +20,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("Solvis - Innovative CX Solutions")
+st.title("Data Chat")
 
 uploaded_file = st.file_uploader("Carregue seu arquivo CSV", type=["csv"])
 
@@ -75,6 +75,7 @@ if uploaded_file is not None:
                 try:
                     resp = df.chat(user_question)
                     st.write("Resposta:")
+                    
                     st.write(resp)
                 except Exception as e:
                     st.write(f"Ocorreu um erro: {e}")
